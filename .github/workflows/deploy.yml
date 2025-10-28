@@ -1,10 +1,5 @@
 name: Deploy static site to GitHub Pages
 
-on:
-  push:
-    branches:
-      - main  # push 到 main 就會自動部署
-
 permissions:
   contents: read
   pages: write
